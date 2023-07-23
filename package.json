@@ -4,7 +4,7 @@
   "description": "Building crm api using node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./index.js --exec babel-node"
   },
   "keywords": [
     "Node",
@@ -13,7 +13,15 @@
   "author": "Ayobami Elutade",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "express": "^4.18.2",
-    "mongoose": "^7.4.0"
+    "mongoose": "^7.4.0",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.9",
+    "@babel/core": "^7.22.9",
+    "@babel/node": "^7.22.6",
+    "@babel/preset-env": "^7.22.9"
   }
 }
