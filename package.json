@@ -1,0 +1,18 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "Building crm using node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "js"
+  ],
+  "author": "Ayobami Elutade",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
