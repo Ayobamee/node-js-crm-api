@@ -10,5 +10,5 @@ const routes = (app) => {
     .put((req, res) => res.send("PUT request successful!"))
     .delete((req, res) => res.send("DELETE request successful!"));
 };
-//routes
+//routes.
 export default routes;
